@@ -1,5 +1,5 @@
 /* Contenido A2, precios simulados y recursos seleccionados. */
-const commons=(file)=>'https://commons.wikimedia.org/wiki/Special:FilePath/'+encodeURIComponent(file)+'?width=960';
+const commons=(file)=>'https://commons.wikimedia.org/wiki/Special:FilePath/'+encodeURIComponent(file)+'?width=1920';
 const photoLibrary={
 meninas:{title:'Las meninas',file:'Diego Velázquez - Las Meninas.jpg',author:'Diego Velázquez',license:'Dominio público',licenseUrl:'https://creativecommons.org/publicdomain/mark/1.0/',text:'Una niña está en el centro. A la izquierda hay un pintor. Mira también al perro.',art:true},
 baltasar:{title:'El príncipe Baltasar Carlos, a caballo · detalle',file:'Principe Baltasar Carlos a caballo Velazquez detail.jpg',author:'Diego Velázquez',license:'Dominio público',licenseUrl:'https://creativecommons.org/publicdomain/mark/1.0/',text:'El niño lleva ropa elegante y monta a caballo. Busca las montañas del fondo.',art:true},

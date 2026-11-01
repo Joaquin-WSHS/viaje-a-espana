@@ -33,3 +33,21 @@ Créditos completos y enlaces de licencia en la interfaz: Sobre la experiencia y
 Sintaxis JavaScript; 53 escenas y todos sus enlaces internos; recorrido Madrid–Valencia–regreso; bloqueo de misión del Prado sin dos obras; pagos de visita únicos; selección y compra de camiseta; lectura de entrada; menús y suplemento de agua; reintentos de orientación; conservación de cartera y reanudación sin repetir transacciones. Revisión visual de portada, galerías y menú de Madrid en Chrome.
 
 Barcelona y Galicia siguen pendientes. El motor usa escenas y recursos declarativos en `content.js`; `app.js` gestiona estado e interacciones y `style.css` el diseño adaptable.
+
+## Revisión visual de acciones
+
+`visuals.js` asigna imágenes según la acción de cada escena: camarero con bloc al pedir, recepcionista al llegar al hotel, taquilla al comprar entradas, dependiente al elegir camiseta, equipaje al preparar la maleta, mostrador al cambiar dinero, conversación con Lucía y tren al viajar. Museo de ciencia y naturaleza tienen imágenes ilustrativas propias. Hay 12 imágenes nuevas para 26 escenas.
+
+Los recursos generados en `assets/` se identifican como escenas ilustrativas con personas y espacios ficticios. Los monumentos y obras mantienen las fotografías reales con sus fuentes. En las misiones de orientación se distingue la fotografía del destino del punto de partida. Las fotografías grandes tienen texto alternativo descriptivo y encuadre específico para conservar los objetos relevantes.
+
+## Descubrimiento cultural y logros · versión 3
+
+- 700 euros iniciales disponibles y 1.800 dólares de reserva. La migración añade 700 euros una sola vez a las partidas de la versión 2.
+- Botón Empezar viaje siempre visible, con aviso antes de sustituir la partida.
+- Mercado Central: diez nuevas fotos de interior, productos y detalles; historia, arquitectura, vida cotidiana y proximidad. Misión de almuerzo para dos con cesta editable de máximo 20 euros; no se cobra hasta confirmar y no se cobra dos veces.
+- Torres de Serranos: Valencia medieval y protección del patrimonio evacuado de Madrid durante la Guerra Civil; misiones con ayuda y foto comentada.
+- Nueve logros con miniaturas, cuadros y marcas rojas de bolígrafo. Se calculan a partir de actividades, compras y fotos; no se pueden activar manualmente.
+- Referencias en una vista propia del menú: fuentes culturales, autorías y licencias. Sin enlaces de atribución al pie de las imágenes de aprendizaje ni en el álbum.
+- Fotos remotas solicitadas hasta 1920 px cuando la fuente lo permite; recursos generados locales de 1536 × 1024.
+
+`culture.js` contiene los capítulos ampliados y las fuentes. `discovery.js` gestiona objetivos, referencias y cesta. Verificados los 63 destinos de escena, presupuesto, cesta, doble cobro, condiciones de logros y misiones históricas.
