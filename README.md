@@ -51,3 +51,6 @@ Los recursos generados en `assets/` se identifican como escenas ilustrativas con
 - Fotos remotas solicitadas hasta 1920 px cuando la fuente lo permite; recursos generados locales de 1536 × 1024.
 
 `culture.js` contiene los capítulos ampliados y las fuentes. `discovery.js` gestiona objetivos, referencias y cesta. Verificados los 63 destinos de escena, presupuesto, cesta, doble cobro, condiciones de logros y misiones históricas.
+
+## Consumo informado y currículo
+64 escenas. Nueva exploración de Mercadona desde Madrid y Valencia: ocho referencias de precio fechadas, categorías de alimentos, ingredientes disponibles y consulta del catálogo oficial, comparación por kilo/litro, reflexión cultural y notas guardadas. Precios en céntimos centralizados en supermarket.js; referencias indirectas orientativas, sin actualización automática ni afiliación. Mercado: pan 0,50 €, naranjas 1,95 €/kg y tomate 2,20 €/kg como base didáctica; otros importes son simulados. Nueva ilustración de supermercado ficticio. AGENTS.md y CURRICULUM_ALIGNMENT.md fijan criterios NM/NH y límites de evidencia.

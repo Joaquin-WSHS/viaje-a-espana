@@ -21,7 +21,7 @@ const marketPhotos=[
 const marketItems=[
 {id:'naranjas',name:'Naranjas',quantity:'1 kg',cost:300,origin:'Valencia',near:true,group:'fruta',photo:'mercado_manzanas',icon:'🍊'},
 {id:'tomates',name:'Tomates',quantity:'½ kg · 3,50 €/kg',cost:175,origin:'Huerta de Valencia',near:true,group:'verdura',photo:'mercado_vida',icon:'🍅'},
-{id:'pan',name:'Pan',quantity:'1 barra',cost:200,origin:'Horno de Valencia',near:true,group:'pan',photo:'mercado_vida',icon:'🥖'},
+{id:'pan',name:'Pan',quantity:'1 barra de 250 g · referencia supermercado: 0,50 €',cost:50,origin:'Horno de Valencia',near:true,group:'pan',photo:'mercado_vida',icon:'🥖'},
 {id:'queso',name:'Queso',quantity:'250 g',cost:450,origin:'Castellón',near:true,group:'extra',photo:'mercado_vida',icon:'🧀'},
 {id:'frutos',name:'Frutos secos',quantity:'100 g',cost:250,origin:'Origen por consultar',near:false,group:'extra',photo:'mercado_vida',icon:'🥜'},
 {id:'aceite',name:'Aceite de oliva',quantity:'Botella de 250 ml',cost:650,origin:'Comunitat Valenciana',near:true,group:'extra',photo:'mercado_aceite',icon:'🫒'}
