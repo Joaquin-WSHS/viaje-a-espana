@@ -1,35 +1,35 @@
-# Viaje a España
+# Viaje a España · Prototipo 2
 
-Aventura independiente de descubrimiento, íntegramente en español A2.
+Aventura cultural independiente íntegramente en español A2. Madrid y Valencia, con decisiones, economía virtual, exploración visual y álbum personal.
 
-## Primera versión
+## Jugar
 
-Un capítulo jugable: cambio de dinero, maleta, vuelo Boston–Madrid, transporte, hotel, desayuno, tres rutas alternativas, comida, comprensión de un mensaje, conversación, recuerdos y álbum final.
+Abrir `index.html` junto a `style.css`, `content.js` y `app.js`. En este repositorio GitHub los archivos se encuentran en la raíz; en el checkout de desarrollo y alojamiento están en `dist/`. No hay compilación ni dependencias obligatorias.
 
-- Preferencias sin penalización; ayuda y reintento en comprensión.
-- Cambio fijo de simulación: 1 USD = 0,90 EUR. Precios ficticios.
-- Vuelos y dos noches de hotel incluidos.
-- Cartera, historial de gastos, fotos virtuales con pies de foto y destinatarios de recuerdos.
-- Progreso en localStorage del navegador. Sin cuentas ni transmisión de datos del estudiante.
-- Álbum imprimible mediante el diálogo de impresión del navegador.
-- Próximamente: Valencia, Barcelona y Galicia; no están implementadas.
+## Contenido
 
-## Archivos
+53 escenas, exploración libre de las dos ciudades, 1.800 USD iniciales y cambio fijo de simulación de 0,90 EUR por dólar. Los vuelos, regreso y cuatro noches de hotel están incluidos. Los precios, horarios, carteles y seis pizarras son ficticios y se identifican como tales.
 
-- `dist/index.html`: estructura.
-- `dist/style.css`: diseño adaptable.
-- `dist/app.js`: escenas, elecciones y estado.
+- Prado: dos retratos de Velázquez, observación y dos imágenes con pies de foto; fichas y visita virtual oficiales, alternativa interna e importación local de capturas.
+- Madrid: Retiro, Plaza Mayor, zona del Bernabéu, elección de jugador y talla de camiseta virtual, teatro familiar y lectura de entrada.
+- Valencia: Ciudad de las Artes y las Ciencias, ciencia, Oceanogràfic, Mercado Central, Torres de Serranos, Malvarrosa, gastronomía y recuerdos.
+- Pizarras: comparar platos, horarios y bebidas incluidas; elegir primero, segundo y postre; calcular el total y guardar el pedido.
+- Orientación: mensajes, horas, señales y citas en Plaza Mayor y Mercado Central.
+- Google Maps opcional, Street View y rutas a pie con enlaces. Sin clave API ni petición de geolocalización. El juego no comprueba posición ni desplazamiento real.
+- Fotos con créditos, múltiples miradas de la misma imagen, recuerdos, notas, compras y álbum imprimible como PDF desde el navegador.
+- Progreso y capturas en localStorage, sin cuenta. El navegador puede limitar el almacenamiento. Las capturas se reducen a 1000 px antes de guardar.
+- Migración de la primera versión: conserva gastos/fotos y suma 1.200 USD. Una partida terminada vuelve al mapa de Madrid para explorar el contenido nuevo.
 
-Sin instalación ni compilación. Servir `dist` con un servidor estático, o abrir `dist/index.html` en el navegador. Para GitHub Pages, publicar el contenido de `dist` en la raíz del sitio.
+## Criterio cultural
 
-## Contenido y recursos
+España se presenta a través de patrimonio, cultura, ciencia, deporte, gastronomía y vida cotidiana. Fuentes oficiales, misiones A2 y obras de arte seleccionadas. Propuesta independiente; no atribuye patrocinio, alianza ni respaldo institucional. No utiliza logotipos institucionales.
 
-Las fotografías de Unsplash y las fuentes de Google son recursos externos de ambiente para el prototipo; sustituir por los materiales originales antes de la edición definitiva. Las imágenes de museo y parque no identifican obras ni monumentos concretos. El álbum crea postales virtuales.
+## Fuentes y recursos
 
-## Siguientes iteraciones
+Créditos completos y enlaces de licencia en la interfaz: Sobre la experiencia y sus fuentes. Fotografías de Wikimedia Commons de vpogarcia, MottaW, DetFerMai, Gustavo86, Karman85, Veronika Bashak, Algrise y Dorieo, con sus licencias indicadas. Reproducciones de Velázquez: dominio público. Fotos de ambiente: Unsplash. Tipografía: Google Fonts. Las webs externas pueden cambiar o no cargar; no se venden entradas ni productos reales.
 
-Integrar identidad visual y fotografías originales, equilibrar presupuesto y duración, ampliar rutas y narrativa, añadir más retos de comprensión y un regreso internacional completo. La primera versión cierra el día en Madrid, no representa una semana entera.
+## Validación
 
-## Comprobaciones
+Sintaxis JavaScript; 53 escenas y todos sus enlaces internos; recorrido Madrid–Valencia–regreso; bloqueo de misión del Prado sin dos obras; pagos de visita únicos; selección y compra de camiseta; lectura de entrada; menús y suplemento de agua; reintentos de orientación; conservación de cartera y reanudación sin repetir transacciones. Revisión visual de portada, galerías y menú de Madrid en Chrome.
 
-Sintaxis JavaScript y recorridos completos de las tres ramas, cartera no negativa, conservación de dólares, recuerdos y reintento de comprensión. La vista previa local puede depender de los permisos del entorno.
+Barcelona y Galicia siguen pendientes. El motor usa escenas y recursos declarativos en `content.js`; `app.js` gestiona estado e interacciones y `style.css` el diseño adaptable.
