@@ -19,3 +19,9 @@ Prioridades: comparación cultural, escucha, diferenciación NM/NH, voces autén
 
 ## Ampliación Mercadona
 Escena con ocho referencias de precio fechadas, cálculo por kilo neto, lectura de etiquetas mediante catálogo externo, notas y apoyos NM/NH. Comprensión y cálculo guiados implementados; interacción real y evaluación docente siguen pendientes. Comparación cultural en producción propia, sin evaluación automática.
+
+## Nueva ampliación: A Coruña, marcas y ayuda léxica
+Zara: historia local/internacional (5,7), lectura de composición y precios (1), producción comparativa (3,6), compra virtual opcional con pago único. Metro: lectura de línea, dirección y transbordo (1,7); escritura y conversación preparada, sin certificar interacción espontánea. Santander: historia y comparación de costes; oficina y cambio simulados. Barceló: alojamiento contextual y lectura de horarios. Glosario local ES/EN, consulta online explícita, modo de palabras y teclado. Las diez empresas prioritarias son plan de contenidos; solo las incorporadas tienen escena, imagen y logotipo revisados.
+
+## Compras y mapa: revisión ampliada
+80 escenas y25marcas con imagen y logotipo de referencia. Compras persistentes en maleta: lectura, cantidades, presupuesto y decisiones. La comparación de productos y su justificación apoya NM/NH.1,3,6,7; no certifica interacción espontánea. Las transiciones del mapa, estaciones y aeropuertos no evalúan estándares ni exigen respuestas. La actividad Lladró aporta9imágenes con contexto y escritura; hay recursos HD y otros menores, sin prometer resolución idéntica. Todos los precios sin verificación se identifican como precios del juego.

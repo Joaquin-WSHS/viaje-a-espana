@@ -19,3 +19,11 @@ Aplicar a todas las futuras escenas, actividades, recursos y revisiones.
 Fuente: https://www.doe.mass.edu/frameworks/world-languages/2021.pdf
 
 - Centralizar precios en céntimos con formato, fecha y fuente; separar referencia de supermercado de puestos simulados. Comparar por kilo/litro y peso escurrido cuando proceda. No inventar ingredientes ni atribuir calidad por marca o precio.
+
+## Marcas y webs prioritarias
+Prioridad alta: Acesur, Acciona, Barceló Hotel Group, Corporación Hijos de Rivera, Inditex, Mapfre, Osborne, Repsol, Santander y Tendam. Además Mercadona y Metro de Madrid. Cada marca incorporada debe tener logotipo identificativo, imagen contextual, fuente y una misión con propósito; no afirmar patrocinio. Para alojamiento priorizar Barceló. Evitar generalizaciones como calidad superior de todos los productos o precios accesibles para todas las personas. Integrar actividades apropiadas a la edad.
+La ayuda léxica es un apoyo NM/NH, no evidencia de aprendizaje por sí sola. Mantener frases en español, sentidos contextuales, teclado y consulta externa opcional sin envío automático de escritos del alumnado.
+
+## Relato, ruta y compras
+Narrar en presente directo: «estás», «entras», «compras»; evitar «imagina» o «oficina imaginada» dentro del relato. Conservar en Referencias el alcance educativo de la ficción, servicios y precios; no convertirla en promesa comercial. Ruta principal Boston–Madrid–Valencia–A Coruña–Boston, con exploraciones por ciudad. Aeropuertos, estaciones y transbordos son transiciones sin pruebas. Mapa inferior extensible, accesible y con movimiento reducido. Mi maleta siempre disponible: confirmar compras, comprobar euros, guardar producto y evitar doble cobro entre tiendas. Mercadona usa código postal46010 como referencia no personal; no afirmar stock de marcas no verificado.
+Nuevas marcas: Paradores, Real Madrid, SEAT, Talgo, La Española, Aena, Isabel, Borges, Carmencita, El Corte Inglés, ElPozo, Festina, Gullón, Iberia, ISDIN, Joma, Lladró, NH Collection, Telefónica y Movistar. NH Collection Finisterre tiene5estrellas: opción aceptada por el usuario frente al4estrellas inicial. Lladró: no inventar figura barata disponible; postal propia de2€ hasta verificar producto real económico.
