@@ -25,3 +25,7 @@ Zara: historia local/internacional (5,7), lectura de composición y precios (1),
 
 ## Compras y mapa: revisión ampliada
 80 escenas y25marcas con imagen y logotipo de referencia. Compras persistentes en maleta: lectura, cantidades, presupuesto y decisiones. La comparación de productos y su justificación apoya NM/NH.1,3,6,7; no certifica interacción espontánea. Las transiciones del mapa, estaciones y aeropuertos no evalúan estándares ni exigen respuestas. La actividad Lladró aporta9imágenes con contexto y escritura; hay recursos HD y otros menores, sin prometer resolución idéntica. Todos los precios sin verificación se identifican como precios del juego.
+
+
+## A Coruña: costa, patrimonio y cultura viva
+Nueve escenas nuevas además del centro de ciudad y Zara. Lectura y observación guiadas; notas propias con apoyos Novice Mid/High; comparación cultural y propuesta de intercambio en pareja. Productos (faro, platos, instrumentos), prácticas (pesca, paseo, canto) y perspectivas (memoria, diversidad, transmisión) se conectan con evidencias. Tres logros registran decisiones, escritura y fotos comentadas; no certifican competencia. Escucha auténtica, evaluación lingüística y participación comunitaria siguen pendientes. Ortigueira es excursión regional, no un lugar dentro de la ciudad. Referencias y once fotografías con licencias centralizadas; enlaces opcionales y alternativas internas.

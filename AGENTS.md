@@ -27,3 +27,19 @@ La ayuda léxica es un apoyo NM/NH, no evidencia de aprendizaje por sí sola. Ma
 ## Relato, ruta y compras
 Narrar en presente directo: «estás», «entras», «compras»; evitar «imagina» o «oficina imaginada» dentro del relato. Conservar en Referencias el alcance educativo de la ficción, servicios y precios; no convertirla en promesa comercial. Ruta principal Boston–Madrid–Valencia–A Coruña–Boston, con exploraciones por ciudad. Aeropuertos, estaciones y transbordos son transiciones sin pruebas. Mapa inferior extensible, accesible y con movimiento reducido. Mi maleta siempre disponible: confirmar compras, comprobar euros, guardar producto y evitar doble cobro entre tiendas. Mercadona usa código postal46010 como referencia no personal; no afirmar stock de marcas no verificado.
 Nuevas marcas: Paradores, Real Madrid, SEAT, Talgo, La Española, Aena, Isabel, Borges, Carmencita, El Corte Inglés, ElPozo, Festina, Gullón, Iberia, ISDIN, Joma, Lladró, NH Collection, Telefónica y Movistar. NH Collection Finisterre tiene5estrellas: opción aceptada por el usuario frente al4estrellas inicial. Lladró: no inventar figura barata disponible; postal propia de2€ hasta verificar producto real económico.
+
+## Integración discreta de marcas
+Las marcas forman parte del contexto narrativo. No convertir conocer un hotel o consultar su web en objetivo, misión, requisito ni logro. En alojamientos, priorizar llegada, fotografías y opciones de explorar la ciudad; «Saber más del hotel» es una consulta opcional. Esta instrucción sustituye la exigencia de una misión de marca para los hoteles.
+
+## Privacidad educativa: requisito de arquitectura y diseño
+COPPA y FERPA son requisitos permanentes del proyecto. Diseñar para minimizar datos, identificar los flujos reales y verificar las obligaciones aplicables antes de afirmar cumplimiento. Ausencia de cuentas o uso de códigos no equivale por sí solo a cumplimiento.
+
+- Acceso a la aventura sin cuenta ni solicitud de nombre, correo, fecha de nacimiento, centro o identificador escolar. No introducir publicidad conductual, seguimiento comercial ni perfiles de alumnos.
+- Progreso local por defecto. El pasaporte portátil sigue siendo una propuesta, no una función implementada: cuando se implemente, exportar solo estado de juego, excluyendo fotos, voz, escritos personales e identificadores.
+- Generar y leer códigos o QR localmente; no enviar códigos a servicios de QR, analítica, parámetros de URL de servidor o registros de aplicaciones. No usar un código como identidad del alumno ni como prueba de competencia.
+- Revisar alojamiento y registros técnicos, imágenes, fuentes, mapas, traducción, catálogos y enlaces externos. Documentar qué datos reciben terceros, finalidad, retención y condiciones; no afirmar «cero recogida de datos» sin verificar estos flujos.
+- Favorecer recursos alojados por el proyecto cuando exista derecho de uso. Los servicios externos deben ser opcionales y ofrecer alternativa dentro de la actividad. Un botón del alumno no sustituye un consentimiento legal que resulte necesario.
+- Cualquier futura función que almacene o transmita datos identificables requiere revisar finalidad educativa, acceso, seguridad, retención, borrado, proveedores y autorizaciones/consentimientos pertinentes antes de habilitarla para alumnos.
+- Mantener avisos de privacidad claros y adecuados a la edad; distinguir requisitos pendientes de controles implementados y comprobados. No anunciar certificación ni cumplimiento integral sin revisión del producto completo.
+
+Fuentes oficiales: https://studentprivacy.ed.gov/resources/protecting-student-privacy-while-using-online-educational-services-requirements-and-best ; https://www.ftc.gov/business-guidance/resources/complying-coppa-frequently-asked-questions

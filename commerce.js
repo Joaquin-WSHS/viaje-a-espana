@@ -42,6 +42,28 @@ s.regreso_coruna={chapter:'A Coruña · Regreso',place:'Aeropuerto · De vuelta 
 s.metro_madrid.options=[opt('Sigo la línea 8 y cambio a la 10 en Nuevos Ministerios.','Continúo hacia Plaza de España.',0,'metro_llegada'),opt('Vuelvo al mapa de Madrid.','Puedo consultar el plano antes de continuar.',0,'plan')];
 for(const p of zaraProducts){const o=s.zara_compra.options.find(o=>o[4]?.once==='zara_purchase'&&o[2]===p.cost);if(o)o[0]='Comprar y meter en mi maleta · '+p.name}
 s.pedido.options[0][0]='Comprar mi camiseta y guardarla en la maleta.';s.mercado_compra.options[0][0]='Comprar y guardar mi almuerzo.';
+// El alojamiento acompaña la llegada; conocer la marca es siempre opcional.
+photoLibrary.barcelo_habitacion={id:'barcelo_habitacion',title:'Una habitación del Barceló Valencia',url:'https://images.trvl-media.com/lodging/2000000/1380000/1376300/1376275/d2af4954.jpg?impolicy=resizecrop&ra=fill&rh=900&rw=1400',source:'https://it.hotels.com/ho238894/barcelo-valencia-hotel-valencia-spagna/',author:'Barceló Valencia · galería distribuida por Hotels.com / Expedia',license:'Derechos reservados · fotografía de referencia, sin licencia abierta declarada',licenseUrl:'',text:'Fotografía de una habitación del hotel. La habitación concreta de la aventura es parte del relato; no constituye una reserva ni garantiza categoría o vistas.'};
+pictures.barcelo_habitacion=photoLibrary.barcelo_habitacion.url;
+delete s.valencia.brand;
+s.valencia.place='Valencia · Barceló Valencia';
+s.valencia.title='Has llegado al hotel<br>Barceló Valencia.';
+s.valencia.text='Dejas la maleta en tu habitación y te tomas un momento para descansar. Después, Valencia te espera: puedes descubrir la arquitectura de la Ciudad de las Artes y las Ciencias, pasear por el centro histórico, conocer la vida del Mercado Central o acercarte al mar. ¿Qué te apetece hacer primero?';
+s.valencia.image='barcelo_valencia';
+s.valencia.imageLabel='Tu llegada a Valencia';
+s.valencia.imageAlt='Exterior del hotel Barceló Valencia.';
+s.valencia.roomPhoto='barcelo_habitacion';
+s.valencia.gallery=s.valencia.gallery.filter(id=>id!=='barcelo_valencia');
+s.valencia.links=s.valencia.links.filter(([label,url])=>!url.includes('barcelo.com'));
+s.valencia.optionalHotel=['Saber más del hotel','https://www.barcelo.com/es-es/barcelo-valencia/'];
+delete s.hotel_coruna.brand;
+delete s.hotel_coruna.journal;
+s.hotel_coruna.text='Llegas al NH Collection A Coruña Finisterre y dejas la maleta. Tras una pausa, puedes pasear junto al mar o descubrir las calles del casco antiguo. ¿Por dónde quieres empezar?';
+s.hotel_coruna.optionalHotel=['Saber más del hotel','https://www.nh-collection.com/es/hotel/nh-collection-a-coruna-finisterre'];
+delete s.hotel.brand;
+s.hotel.optionalHotel=['Saber más del hotel','https://www.barcelo.com/es-es/barcelo-torre-de-madrid/'];
+s.hotel.links=[];
+
 // Reservas, precios de juego y recreaciones se documentan fuera del relato.
 for(const scene of Object.values(s)){if(scene.image.startsWith('brand_')){delete scene.illustrative;delete scene.imageFocus;scene.imageAlt=photoLibrary[scene.image].title;}scene.text=scene.text.replace('En esta escena imaginas el campo desde las gradas.','Estás en las gradas y miras el campo.').replace('En esta aventura te alojas','Te alojas').replace('La recepción de la imagen es una ilustración: no reproduce el interior real del hotel.','La recepción te da la bienvenida.').replace('imagina que estás','estás').replace('Imagina que estás','Estás');}
 cultureSources.push(['Cómo interpretar marcas y compras','https://www.santander.com/es/sobre-nosotros','La ruta es una ficción educativa: oficina de aeropuerto, reservas, transporte y compras no verifican servicios reales. Los precios de juego no son ofertas. El mapa permite explorar sin realizar reservas.'],['Lladró · Recuerdos asequibles','https://www.lladro.com/es_es/visitenos','No se ha verificado una figura nueva barata disponible. La postal de2€ es un recurso propio de la aventura.'],['Conexión móvil · Roaming','https://www.movistar.es/tarifas-moviles/roaming/','Depende del operador de origen, acuerdos, tarifa y cobertura; no es acceso automático a cualquier antena.']);
