@@ -29,3 +29,11 @@ Zara: historia local/internacional (5,7), lectura de composición y precios (1),
 
 ## A Coruña: costa, patrimonio y cultura viva
 Nueve escenas nuevas además del centro de ciudad y Zara. Lectura y observación guiadas; notas propias con apoyos Novice Mid/High; comparación cultural y propuesta de intercambio en pareja. Productos (faro, platos, instrumentos), prácticas (pesca, paseo, canto) y perspectivas (memoria, diversidad, transmisión) se conectan con evidencias. Tres logros registran decisiones, escritura y fotos comentadas; no certifican competencia. Escucha auténtica, evaluación lingüística y participación comunitaria siguen pendientes. Ortigueira es excursión regional, no un lugar dentro de la ciudad. Referencias y once fotografías con licencias centralizadas; enlaces opcionales y alternativas internas.
+
+
+## Barcelona
+Implementado: nueve recorridos exteriores, Gaudí, convivencia lingüística, Port Vell, mercados y prevención de hurtos. Pregunta cultural, objetivo comunicativo, apoyos NM/NH y producción escrita en cada parada. Los modos interpretativo, presentacional e interpersonal guiado son pertinentes; códigos y cobertura específica pendientes de revisión del marco oficial. No se declara ningún estándar adicional cumplido. Sin evaluación automática de competencia. Ilustraciones temáticas propias identificadas, sin nuevas solicitudes externas automáticas; fuentes opcionales.
+
+
+## Altamira · Cantabria
+Implementado: museo/Neocueva, arte paleolítico, conservación y Santillana del Mar, con objetivos comunicativos, pregunta cultural, apoyos NM/NH, reflexión escrita y conversación guiada. No se promete acceso al original. Fuentes oficiales opcionales; ilustración temática identificada. Códigos específicos del marco pendientes de revisión; no se declara cobertura adicional. Revisión docente de la producción pendiente.

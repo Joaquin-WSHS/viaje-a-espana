@@ -38,6 +38,8 @@ applySupermarket(scenes);
 applyBrands(scenes);
 applyCommerce(scenes);
 applyCoruna(scenes,pictures);
+applyBarcelona(scenes,pictures);
+applyAltamira(scenes,pictures);
 const order=Object.keys(scenes);
 function imageMarkup(url,title,cls=''){return `<img class="${cls}" src="${esc(url)}" alt="${esc(title)}" loading="lazy" referrerpolicy="no-referrer">`}
 function credit(p){if(p.generated)return '<span>SpainQuest · escena ilustrativa generada. Personas y espacios ficticios.</span>';return `<a href="${esc(p.source)}" target="_blank" rel="noopener noreferrer">${esc(p.author)} · ${esc(p.license)}</a>`}

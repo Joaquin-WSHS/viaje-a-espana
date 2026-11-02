@@ -1,6 +1,6 @@
 # Viaje a España · Prototipo 2
 
-Aventura cultural independiente íntegramente en español A2. Madrid y Valencia, con decisiones, economía virtual, exploración visual y álbum personal.
+Aventura cultural independiente íntegramente en español A2. Madrid, Valencia, A Coruña, Barcelona y Cantabria, con decisiones, economía virtual, exploración visual y álbum personal.
 
 ## Jugar
 
@@ -8,7 +8,7 @@ Abrir `index.html` junto a `style.css`, `content.js` y `app.js`. En este reposit
 
 ## Contenido
 
-53 escenas, exploración libre de las dos ciudades, 1.800 USD iniciales y cambio fijo de simulación de 0,90 EUR por dólar. Los vuelos, regreso y cuatro noches de hotel están incluidos. Los precios, horarios, carteles y seis pizarras son ficticios y se identifican como tales.
+Exploración por ciudades mediante mapas y escenas, 700 € y 1.800 USD iniciales y cambio fijo de simulación de 0,90 EUR por dólar. Los vuelos, regreso y cuatro noches de hotel están incluidos. Los precios, horarios, carteles y pizarras ficticios se identifican como tales.
 
 - Prado: dos retratos de Velázquez, observación y dos imágenes con pies de foto; fichas y visita virtual oficiales, alternativa interna e importación local de capturas.
 - Madrid: Retiro, Plaza Mayor, zona del Bernabéu, elección de jugador y talla de camiseta virtual, teatro familiar y lectura de entrada.
@@ -32,7 +32,7 @@ Créditos completos y enlaces de licencia en la interfaz: Sobre la experiencia y
 
 Sintaxis JavaScript; 53 escenas y todos sus enlaces internos; recorrido Madrid–Valencia–regreso; bloqueo de misión del Prado sin dos obras; pagos de visita únicos; selección y compra de camiseta; lectura de entrada; menús y suplemento de agua; reintentos de orientación; conservación de cartera y reanudación sin repetir transacciones. Revisión visual de portada, galerías y menú de Madrid en Chrome.
 
-Barcelona y Galicia siguen pendientes. El motor usa escenas y recursos declarativos en `content.js`; `app.js` gestiona estado e interacciones y `style.css` el diseño adaptable.
+Barcelona y Cantabria se incorporan con módulos de ciudad cargados desde `index.html`. El motor usa escenas y recursos declarativos en `content.js`; `app.js` gestiona estado e interacciones y `style.css` el diseño adaptable.
 
 ## Revisión visual de acciones
 
