@@ -15,7 +15,7 @@ El plan de diez páginas SpainQuest_Curriculum_NM_NH.pdf desarrolla los criterio
 | NM.7 / NH.7 | Historia, arte, matemáticas y fuentes | Uso verificable de recursos auténticos y perspectivas |
 | NM.8 / NH.8 | Exploración digital y reflexión parcial | Metas, interacción real y acciones comunitarias diseñadas |
 
-Prioridades: comparación cultural, escucha, diferenciación NM/NH, voces auténticas y revisión de evidencias. Barcelona y Galicia siguen pendientes. Prácticas 9 y 10 son transversales; no inventar códigos NM.9 o NH.10.
+Prioridades: comparación cultural, escucha, diferenciación NM/NH, voces auténticas y revisión de evidencias. Barcelona y Galicia ya están implementadas (ver abajo). Prácticas 9 y 10 son transversales; no inventar códigos NM.9 o NH.10.
 
 ## Ampliación Mercadona
 Escena con ocho referencias de precio fechadas, cálculo por kilo neto, lectura de etiquetas mediante catálogo externo, notas y apoyos NM/NH. Comprensión y cálculo guiados implementados; interacción real y evaluación docente siguen pendientes. Comparación cultural en producción propia, sin evaluación automática.
@@ -37,3 +37,13 @@ Implementado: nueve recorridos exteriores, Gaudí, convivencia lingüística, Po
 
 ## Altamira · Cantabria
 Implementado: museo/Neocueva, arte paleolítico, conservación y Santillana del Mar, con objetivos comunicativos, pregunta cultural, apoyos NM/NH, reflexión escrita y conversación guiada. No se promete acceso al original. Fuentes oficiales opcionales; ilustración temática identificada. Códigos específicos del marco pendientes de revisión; no se declara cobertura adicional. Revisión docente de la producción pendiente.
+
+
+
+## Santiago, Euskadi, Formentera, Toledo y Prado ampliado · 2026-11-10
+Implementado: Santiago (catedral, Camino, botafumeiro, vida urbana y gastronomía), Bilbao y Donostia (arte, transformación urbana, pintxos y Basque Culinary Center), Formentera (playas, posidonia, salinas y faros), Toledo (convivencia de tres culturas y Museo del Greco) y nueve obras más del Prado. Cada parada tiene lectura guiada, observación de fotos, apoyos NM/NH y preguntas de comprensión.
+Productos (catedral, pintxos, posidonia, sinagogas, cuadros), prácticas (peregrinar, compartir en barra, proteger el mar, convivir) y perspectivas (memoria, identidad, sostenibilidad) se conectan en el texto. Ocho logros nuevos registran misiones y fotos comentadas; no certifican competencia.
+Pendiente: comparación sistemática con la comunidad del alumno en cada destino, escucha con transcripción, revisión docente de la producción y verificación de códigos específicos del marco oficial. No se declara cobertura adicional.
+
+## Mercado Central · reto de cálculo
+El reto «Dos kilos, ¿cuánto cuesta?» vuelve a estar accesible desde el mercado: lectura de un cartel de precio y cálculo sencillo con ayuda si la respuesta es incorrecta. Comprueba comprensión numérica; no evalúa interacción.
