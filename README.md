@@ -1,10 +1,12 @@
 # Viaje a España · Prototipo 2
 
-Aventura cultural independiente íntegramente en español A2. Madrid, Valencia, A Coruña, Barcelona y Cantabria, con decisiones, economía virtual, exploración visual y álbum personal.
+Aventura cultural independiente íntegramente en español A2. Madrid (con galería ampliada del Prado), Toledo, Valencia, Formentera, Barcelona, Cantabria, Bilbao con excursión a Donostia, Santiago de Compostela y A Coruña, con decisiones, economía virtual, exploración visual y álbum personal.
+
+Estado actual (10/11/2026): 157 escenas, 167 fotografías registradas, 25 marcas y 20 logros. Los recuentos de las secciones históricas de abajo corresponden a su fecha.
 
 ## Jugar
 
-Abrir `index.html` junto a `style.css`, `content.js` y `app.js`. En este repositorio GitHub los archivos se encuentran en la raíz; en el checkout de desarrollo y alojamiento están en `dist/`. No hay compilación ni dependencias obligatorias.
+Abrir `index.html` junto a `style.css` y todos los scripts que carga, en el mismo orden. En este repositorio GitHub los archivos se encuentran en la raíz; en el checkout de desarrollo y alojamiento están en `dist/`. No hay compilación ni dependencias obligatorias.
 
 ## Contenido
 
@@ -66,3 +68,15 @@ Verificación: recorrido anterior,80destinos, compras entre tiendas, saldo, dobl
 
 ## A Coruña: descubrimiento cultural
 89 escenas. Nueva exploración de Riazor, paseo marítimo, Torre de Hércules, Domus, María Pita, puerto/cofradía, gastronomía, Cántigas da Terra y Ortigueira como excursión regional. Once fotos reales con licencias en Referencias, ocho observaciones escritas y tres logros nuevos. Zara y hotel conservados. Pruebas de rutas, pagos, persistencia y nuevas condiciones de escritura verificadas.
+
+
+
+## Nuevos destinos · noviembre de 2026
+Módulos `santiago.js`, `bilbao.js` (con Donostia y el Basque Culinary Center), `formentera.js`, `toledo.js` (convivencia de tres culturas y Museo del Greco con enlace oficial) y `prado.js` (nueve obras de dominio público con enlace a la ficha del museo). Cada uno añade escenas, fotos con licencia en Referencias y apoyos NM/NH. Textos acortados para Novice Mid. El mapa del viaje incluye las nuevas ciudades.
+
+## Progreso y partida guardada
+`progreso.js` se carga después de `discovery.js` y antes de `app.js`:
+- Revisa la partida guardada antes de abrirla. Si algún campo está dañado, lo repara, conserva fotos y decisiones válidas y guarda una copia en `viaje-espana-v1-copia`. Si la partida no se puede leer, guarda la copia y empieza un viaje nuevo con aviso.
+- Ocho logros nuevos: Santiago (2), Bilbao, cocina vasca, Formentera, Toledo, Museo del Greco y galería del Prado. Se calculan con misiones y fotos comentadas.
+- El reto «Dos kilos, ¿cuánto cuesta?» vuelve a estar accesible desde el Mercado Central.
+- Con «reducir movimiento» activado en el sistema, el desplazamiento no se anima.
