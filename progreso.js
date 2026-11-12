@@ -73,3 +73,59 @@ allAchievements=function(){
 
 /* 4 · Movimiento reducido: sin desplazamiento animado si el sistema lo pide. */
 try{if(matchMedia('(prefers-reduced-motion: reduce)').matches){const nativeScroll=window.scrollTo.bind(window);window.scrollTo=function(a,b){return typeof a==='object'&&a?nativeScroll({...a,behavior:'auto'}):nativeScroll(a,b)}}}catch{}
+
+/* 5 · Revisión final (12/11/2026): comparación con la comunidad en todas las paradas nuevas. */
+function applyComparisons(s){
+  const c={
+  stg_tarta:'¿Hay un dulce típico en tu comunidad? ¿Cuándo se come? NM: «En mi comunidad comemos __».',
+  bio_maman:'¿Hay una escultura o un mural en un espacio público de tu ciudad? ¿Qué representa? NM: «En mi ciudad hay __».',
+  bio_ria:'¿Hay un río o un puente importante en tu ciudad? ¿Para qué lo usan las personas?',
+  bio_pintxos_fin:'¿Dónde comes con tus amigos en tu comunidad? ¿Coméis de pie o sentados? NM: «Con mis amigos como en __».',
+  dss_bcc:'¿Dónde se aprende a cocinar en tu comunidad: en casa, en la escuela, en un restaurante? ¿Quién cocina en tu familia?',
+  tol_transito:'¿Hay un edificio de tu ciudad que antes tenía otro uso? NM: «Antes era __. Ahora es __».',
+  tol_blanca:'¿Qué edificios religiosos hay en tu comunidad? ¿En qué se parecen a este y en qué son diferentes?',
+  tol_alcazar:'¿Qué edificio se ve desde lejos en tu ciudad? ¿Qué hay dentro hoy?',
+  prado_galeria:'¿Hay un museo en tu ciudad o en tu estado? ¿Qué puedes ver allí? NM: «En el museo de __ hay __».',
+  prado_hilanderas:'¿Qué trabajos hechos a mano conoces en tu comunidad? ¿Quién los hace?',
+  prado_breda:'En el cuadro, el vencedor trata con respeto al vencido. ¿Cómo muestras respeto después de un partido o una competición?',
+  prado_3mayo:'¿Cómo recuerda tu comunidad los momentos difíciles de su historia: con un monumento, un día especial, una obra de arte?',
+  prado_caballero:'¿Cómo es un retrato hoy: una foto, un selfi? ¿Qué quieres mostrar de ti en una foto?',
+  prado_descendimiento:'Los personajes muestran tristeza con la cara y las manos. ¿Cómo muestran las emociones las personas en las fotos o películas que tú ves?',
+  prado_anunciacion:'El cuadro cuenta una historia en varias escenas, como un cómic. ¿Qué historias con imágenes lees o ves tú?',
+  prado_muhlberg:'¿Cómo aparecen hoy los líderes en las fotos oficiales? ¿Qué quieren comunicar?'};
+  for(const [id,t] of Object.entries(c)){const sc=s[id];if(!sc)continue;sc.explore=sc.explore||[];if(!sc.explore.some(e=>/^Comparaci/.test(e[0])))sc.explore.push(['Comparación',t])}
+}
+const _applyPradoRev=applyPradoGaleria;
+applyPradoGaleria=function(s,p){_applyPradoRev(s,p);applyComparisons(s)};
+
+/* 6 · Imágenes de marca que no cargan: se muestra el nombre de la marca en lugar de un hueco. */
+document.addEventListener('error',e=>{
+  const t=e.target;if(!(t instanceof HTMLImageElement)||t.dataset.fallback)return;
+  try{
+    const src=t.getAttribute('src'),key=Object.keys(photoLibrary).find(k=>photoLibrary[k]&&photoLibrary[k].url===src)||Object.keys(pictures).find(k=>pictures[k]===src);if(!key)return;
+    const b=Object.values(brandLibrary).find(x=>x.logoId===key||x.image===key||(x.gallery||[]).includes(key));if(!b)return;
+    const name=String(b.name).replace(/\s*\(.*\)\s*/,'').replace(/[&<>]/g,''),logo=b.logoId===key;
+    t.dataset.fallback='1';
+    t.src='data:image/svg+xml,'+encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 '+(logo?240:400)+'"><rect width="600" height="'+(logo?240:400)+'" fill="'+(logo?'#fff':'#efe8d8')+'"/><text x="300" y="'+(logo?135:195)+'" text-anchor="middle" font-family="Georgia,serif" font-size="'+(name.length>14?40:56)+'" fill="#1f2a44">'+name+'</text>'+(logo?'':'<text x="300" y="240" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#66625a">Foto no disponible ahora · consulta Referencias</text>')+'</svg>');
+  }catch{}
+},true);
+
+/* 7 · Pantalla final: ya no habla solo de Madrid y Valencia; el sello muestra las ciudades visitadas. */
+document.addEventListener('DOMContentLoaded',()=>{
+  if(typeof renderFinish!=='function')return;
+  const base=renderFinish;
+  renderFinish=function(){
+    base();
+    try{
+      const codes=[['MAD',/^(plan|prado|retiro|banco|bernabeu|tour|camiseta|personalizar|talla|pedido|teatro|asiento|entrada|funcion|atardecer|menus_madrid|orientacion_madrid|calle_senal|cita_madrid)/],['TOL',/^(toledo|tol_)/],['VLC',/^(valencia|mercado|ciencias|museu|ocean|serranos|playa|paella|sobremesa|recuerdo_valencia|menus_valencia|orientacion_valencia|cita_valencia)/],['FOR',/^(formentera|for_)/],['BCN',/^(barcelona|bcn_)/],['ALT',/^altamira/],['BIO',/^(bilbao|bio_|dss)/],['SCQ',/^(santiago|stg_)/],['LCG',/^coruna/]];
+      const seen=codes.filter(([c,re])=>state.history.some(h=>re.test(h.scene||''))).map(x=>x[0]);
+      const q=x=>document.querySelector('.finish '+x);
+      if(q('.eyebrow'))q('.eyebrow').innerHTML='<span class="dot"></span> ESPAÑA · TU VIAJE';
+      if(q('.stamp'))q('.stamp').innerHTML='ESPAÑA<br>MI ÁLBUM DE VIAJE<br>✳ '+(seen.length?seen.join(' · '):'ESPAÑA')+' ✳';
+      if(q('label[for="reflection"]'))q('label[for="reflection"]').textContent='Mi historia de España';
+      if(q('#reflection'))q('#reflection').placeholder='En Madrid descubrí… En otra ciudad vi… Me gustó… Comí… Mi recuerdo favorito es… Quiero volver porque…';
+      if(q('#back-valencia'))q('#back-valencia').textContent='Seguir explorando';
+    }catch{}
+  };
+  if(document.querySelector('.finish'))renderFinish();
+});
